@@ -1,0 +1,92 @@
+body{
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default{
+    position: fixed; 
+    top:0; 
+    width: 100%;
+}
+
+header{
+    background-image: url("../img/imagemfundodegrade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 100vh;
+}
+
+.titulo{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Chewy', cursive;
+    color: white;
+    font-size: 700%;
+    padding-top: 40vh;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-top: 4%;
+}
+
+.quadrado {
+    padding: 1%;
+    margin: 1%;
+    text-align: center;
+    width: 300px; 
+    border: 1px solid white;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+
+.explicacao{
+    background-size: cover; 
+    min-height: 100vh;
+}
+
+.fotos{
+    background-size: cover; 
+    min-height: 100vh;
+}
+
+.sessao-depoimentos{
+    background-image: url("../img/imgdepoimentos.jpg");
+    background-size: cover; 
+    min-height: 100vh;
+}
+
+p{
+    font-size: large;
+    margin-top: 2%;
+}
+
+.mudar-situacao{
+    background-image: url("../img/imgdepoimentos.jpg");
+    background-size: cover; 
+    min-height: 57vh;
+}
+
+.rodape{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
